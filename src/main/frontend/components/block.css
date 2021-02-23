@@ -7,6 +7,7 @@
   overflow: initial;
   cursor: text;
   word-break: break-word;
+  text-align: justify;
 
   img {
     max-width: 100%;
