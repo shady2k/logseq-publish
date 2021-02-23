@@ -608,7 +608,7 @@
 
 (defn open-right-sidebar!
   []
-  (swap! state assoc :ui/sidebar-open? true))
+  (swap! state assoc :ui/sidebar-open? false))
 
 (defn hide-right-sidebar!
   []

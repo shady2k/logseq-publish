@@ -102,11 +102,11 @@
           result (if config/publishing?
                    (concat pages files blocks)
                    (concat new-page pages new-file files blocks))]
-      [:div.absolute.rounded-md.shadow-lg
+      [:div.fixed.border.border-white.rounded-md.shadow-lg
        {:style (merge
                 {:top 48
-                 :left 32
-                 :width 500})}
+                 :left 10
+                 :max-width 500})}
        (ui/auto-complete
         result
         {:on-chosen (fn [{:keys [type data]}]

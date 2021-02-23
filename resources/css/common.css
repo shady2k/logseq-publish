@@ -52,7 +52,7 @@ html[data-theme=dark] {
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: #0f4958;
   --ls-block-bullet-color: #608e91;
-  --ls-block-highlight-color: ##0b2d4a;
+  --ls-block-highlight-color: #0b2d4a;
   --ls-selection-background-color: #338fff;
   --ls-page-checkbox-color: #6093a0;
   --ls-page-checkbox-border-color: var(--ls-primary-background-color);
@@ -67,7 +67,7 @@ html[data-theme=dark] {
   --ls-head-text-color: var(--ls-link-text-color);
   --ls-icon-color: var(--ls-link-text-color);
   --ls-search-icon-color: var(--ls-link-text-color);
-  --ls-a-chosen-bg: var(--ls-secondary-background-color);
+  --ls-a-chosen-bg: var(--ls-block-highlight-color);
   --ls-right-sidebar-code-bg-color: #04303c;
   --color-level-1: var(--ls-secondary-background-color);
   --color-level-2: var(--ls-tertiary-background-color);
